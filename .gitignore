@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/JobPortal/obj
+/.vs
+/JobPortal.Dtos/bin/Debug/net8.0
+/JobPortal.Dtos/obj
+/JobPortal.Service/bin/Debug/net8.0
+/JobPortal.Service/obj
+/JobPortal.DataAccessLayer/bin/Debug/net8.0
+/JobPortal.DataAccessLayer/obj
