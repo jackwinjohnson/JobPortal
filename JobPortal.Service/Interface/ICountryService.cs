@@ -10,7 +10,7 @@ namespace JobPortal.Service.Interface
     public interface ICountryService
     {
 
-        Task<IEnumerable<CountryDto>> GetAllCountriesAsync();
+        Task<IEnumerable<CountryDto>> GetAllAsync();
 
         Task<CountryDto>AddAsync(CountryDto countryDto);
 

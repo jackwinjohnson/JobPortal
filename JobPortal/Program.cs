@@ -20,6 +20,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(Options=>Options.UseSqlServe
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddScoped<IAddressService, AddressService>();
+builder.Services.AddScoped<ICountryService, CountryService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 

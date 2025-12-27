@@ -10,3 +10,5 @@
 /JobPortal.Service/obj
 /JobPortal.DataAccessLayer/bin/Debug/net8.0
 /JobPortal.DataAccessLayer/obj
+/JobPortal/.vs
+/JobPortal/bin/Debug/net8.0

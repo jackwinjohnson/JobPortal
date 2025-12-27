@@ -29,7 +29,7 @@ namespace JobPortal.Service.Services
             return countryDto;
         }
 
-        public async Task<IEnumerable<CountryDto>> GetAllCountriesAsync()
+        public async Task<IEnumerable<CountryDto>> GetAllAsync()
         {
             var countries = await _countryRepository.GetAllAsync();
             return _mapper.Map<IEnumerable<CountryDto>>(countries);
