@@ -8,6 +8,7 @@ namespace JobPortal.Dtos.Dtos
 {
     public class CourseDto
     {
-        Guid Id { get; set; }
+        public Guid Id { get; set; }
+        public string Name { get; set; }
     }
 }

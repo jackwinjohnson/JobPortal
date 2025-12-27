@@ -10,6 +10,8 @@ namespace JobPortal.Mapping
         {
             CreateMap<Address, AddressDto>().ReverseMap();
             CreateMap<Country, CountryDto>().ReverseMap();
+            CreateMap<Category,CategoryDto>().ReverseMap();
+            CreateMap<Course,CourseDto>().ReverseMap();
 
         }
     }
